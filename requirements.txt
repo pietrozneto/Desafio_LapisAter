@@ -1,0 +1,6 @@
+flask
+gTTS
+requests
+python-dotenv
+openai
+gunicorn

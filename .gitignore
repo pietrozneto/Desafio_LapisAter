@@ -1,0 +1,6 @@
+.env
+.venv
+generated_audio/
+data/logs.csv
+.DS_Store
+Thumbs.db

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Your Meditation</title>
+</head>
+
+<body>
+
+<h2>Your Meditation is Ready</h2>
+
+<audio controls>
+<source src="/audio/{{ audio_file }}" type="audio/mpeg">
+</audio>
+
+<br><br>
+
+<a href="/audio/{{ audio_file }}" download>
+Download Audio
+</a>
+
+<h3>Meditation Script</h3>
+
+<pre>
+{{ script }}
+</pre>
+
+<br>
+
+<a href="/">Generate Another</a>
+
+</body>
+</html>
